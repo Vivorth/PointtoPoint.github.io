@@ -1,0 +1,533 @@
+.top{
+    width:100%;
+    height:100px;
+    position:sticky;
+    top:0px;
+    background-color: gray;
+    z-index: 1;
+}
+.logo{
+    align-content: center;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    margin-left: 50px;
+    margin-top:13px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+.img1{
+    width:80px;
+    height:80px;
+}
+@keyframes logo{
+    from{transform: scale(1,1.1)}
+    to{transform: scale(1.01,1)}
+    50%{ transform: rotate(1deg);}
+}
+
+.gs{
+    left:1000px;
+    top:20px;
+    width: 500px;
+    background: rgb(247, 244, 244);
+   
+}
+/* Google Custom Search */
+.ct-content {
+    margin-bottom: 80px;
+    margin-top: 15px;
+}
+.gs-result a.gs-visibleUrl,
+.gs-result .gs-visibleUrl {
+        color: #00bff3 !important;
+}
+.ct-sidenav .ct-search input {
+        color: #fff;
+}
+ 
+#searchForm input {
+        height: 58px;
+        height: 5.8rem;
+        line-height: 56px;
+        line-height: 5.6rem;
+        padding: 0 15px;
+        padding: 0 1.5rem;
+}
+ 
+#searchForm input {
+        border: 1px solid #acacac;
+        width: 100%;
+        background: #fff;
+        font-size: 19px;
+        font-size: 1.9rem;
+        color: #000;
+}
+ 
+#searchForm input[type=submit] {
+        background-color: #00A7E8;
+        color:#fff;
+        border:none;
+}
+ 
+#output a{
+        font-weight:bold;
+        color: #00A7E8;
+}
+#output a.searchLink{
+        font-weight:bold;
+        color: #0079c2;
+}
+ 
+#lnkPrev, #lnkNext{
+        font-weight:bold;
+        color: #0079c2;
+}
+.name{
+     top:10px;
+    z-index: 1;
+    background-color: black;
+    width: 100%;
+    height:50px;
+}
+.name1{
+    
+    margin-top: -42px;
+    color: white;
+    position: sticky;
+    z-index: 3;
+    top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+   
+}
+.a{
+border: 1px solid;
+   padding: 13px;
+   text-align: center;
+   border-radius: 8px;   background: rgb(36, 40, 44);
+   position: fixed;
+   margin-top:0 px;
+   width: 125px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ 
+ 
+}
+.b{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     border-radius: 8px;
+   position: fixed;
+    background: rgb(36, 40, 44);
+    margin-top: 45px;
+    width: 125px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ 
+}
+.c{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     border-radius: 8px;     border-radius: 8px;
+   background:  rgb(36, 40, 44);
+   position: fixed;
+   margin-top: 90px;
+    width: 125px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ 
+}
+.d{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     border-radius: 8px;
+   background: rgb(36, 40, 44);
+   position:fixed;
+   margin-top: 135px;
+   width: 125px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ 
+}
+.e{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     border-radius: 8px;
+   background:  rgb(36, 40, 44);
+   position: fixed;
+   margin-top: 180px;
+    width: 125px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ 
+}
+.a:hover{
+    background: rgb(30, 103, 172) ;
+}
+.b:hover{
+    background: rgb(30, 103, 172);
+}
+.c:hover{
+    background: rgb(30, 103, 172);
+}
+.d:hover{
+    background: rgb(30, 103, 172);
+}
+.e:hover{
+    background:rgb(30, 103, 172);
+}
+.sport{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 30px;
+    width: 100px;
+    }
+    .b:hover .sport{
+    display: block;
+     
+    margin-left: 140px;
+    margin-top: -30px;
+    }
+    .sport a{
+    background: rgb(30, 103, 172);
+    display: block;
+    text-decoration: none;
+    width:155px;
+    padding:13px;
+    border: 1px solid;
+    color: white;
+    }
+    a{ 
+    border-radius: 8px;
+    }
+    .esports:hover{
+    background:rgb(24, 63, 99)
+    }
+    .general:hover{
+    background: rgb(24, 63, 99)
+    }
+    .technology a{
+    background: rgb(30, 103, 172);
+    display: block;
+    text-decoration: none;
+    width:155px;
+    padding:13px;
+    border: 1px solid;
+    color: white;
+    }
+    .technology{
+    display: none;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+     
+    }
+    .c:hover .technology{
+    display: block;
+    margin-left: 140px;
+    margin-top: -30px;
+    }
+    .artificial:hover{
+    background:rgb(24, 63, 99)
+    }
+    .medical:hover{
+    background:rgb(24, 63, 99)
+    }
+    .space:hover{
+    background:rgb(24, 63, 99)
+    }
+    .travel{
+    display: none;
+    position: absolute;
+    }
+    .travel a{
+    background: rgb(30, 103, 172);
+    display: block;
+    text-decoration: none;
+    width:155px;
+    padding:13px;
+    border: 1px solid;
+    color: white;
+    }
+    .d:hover .travel{
+    display: block;
+    margin-left: 140px;
+    margin-top: -30px;
+    }
+    .tip:hover{
+    background:rgb(24, 63, 99)
+    }
+    .destination:hover{
+    background:rgb(24, 63, 99)
+    }
+    body{
+    background: rgb(247, 244, 244);
+    margin: auto;
+    width: 100%
+    }
+    .maindiv{
+    position: static;
+    top:500px;
+    left:0px;
+    height: 500px;
+    max-height:100%;
+    max-width: 100%;
+    }
+     .img{
+    max-width: 100%;
+    width: 7000px;
+    height:2018px;
+    z-index: -1;
+    }
+    
+    
+    .div{
+    border: 1px thin;
+    width: 155px;
+    color: white;
+    margin-top: -345px;
+    margin-left:20px;
+    z-index: 3;
+    position: absolute; 
+    }
+    .fb{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            margin-left: 670px;
+            z-index: 1;
+            }
+            .fb:hover{
+            background: rgb(255, 174, 174);
+            }
+            .ig{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            margin-left: 568px;
+            z-index: 1;
+            }
+            .ig:hover{
+            background: rgb(255, 165, 251);
+            }
+           
+            .gs{
+                float: right;
+                width: 500px;
+                background: rgb(247, 244, 244);
+            }   
+.pic1{
+width: 350px;
+height:300px;
+position: absolute;
+top: 250px;
+margin-left: 250px;
+animation-name: pic1;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes pic1{
+    from{transform: scale(1,1,1)}
+    to{transform: scale(1.01,1)}
+    50%{ transform: rotate(2deg);}
+}
+.talk1{
+    width: 350px;
+    height:30px;
+    position: absolute;
+    top: 570px;
+    margin-left: 250px;
+    color: rgb(192, 182, 182);
+    text-align: center;
+    font-size: 25;
+}
+.pic2{
+    width: 350px;
+    height:300px;
+    position: absolute;
+    top: 250px;
+    margin-left: 650px;
+    animation-name: pic2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes pic2{
+    from{transform: scale(1,1,1)}
+    to{transform: scale(1.01,1)}
+    50%{ transform: rotate(2deg);}
+}
+.talk2{
+    width: 350px;
+    height:30px;
+    position: absolute;
+    top: 570px;
+    margin-left: 650px;
+    color: rgb(192, 182, 182);
+    text-align: center;
+    font-size: 25;
+}
+
+.pic3{
+    width: 350px;
+    height:300px;
+    position: absolute;
+    top: 250px;
+    margin-left: 1050px;
+    animation-name: pic2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes pic2{
+    from{transform: scale(1,1,1)}
+    to{transform: scale(1.01,1)}
+    50%{ transform: rotate(-2deg);}
+}
+.talk3{
+    width: 350px;
+    height:30px;
+    position: absolute;
+    top: 570px;
+    margin-left: 1050px;
+    color: rgb(192, 182, 182);
+    text-align: center;
+    font-size: 25;
+}
+
+.title1{
+    margin-left: 250px;
+    color: white;
+    height: 20px;
+    width:750px;
+    background-color: none;
+    border-top: 3px solid rgb(157, 157, 241);
+    position: absolute;
+    top: 650px;
+    font-size: 25;
+  
+    
+} 
+.title1div{
+    top: 650px;
+    margin-left: 1050px;
+    width:350px;
+    height: 200px;
+    position: absolute;
+    border-radius: 7px;
+    border: 2px solid pink;
+}
+.imgtitle1{
+    width:350px;
+    height: 200px;  
+}
+
+.title2{
+    margin-left: 250px;
+    color: white;
+    height: 20px;
+    width:750px;
+    background-color: none;
+    border-top: 3px solid rgb(157, 157, 241);
+    position: absolute;
+    top: 900px;
+    font-size: 25;
+   
+    
+} 
+.title2div{
+    top: 900px;
+    margin-left: 1050px;
+    width:350px;
+    height: 200px;
+    position: absolute;
+    border-radius: 7px;
+    border: 2px solid pink;
+}
+.imgtitle2{
+    width:350px;
+    height: 200px;  
+}
+
+.title3{
+    margin-left: 250px;
+    color: white;
+    height: 20px;
+    width:750px;
+    background-color: none;
+    border-top: 3px solid rgb(157, 157, 241);
+    position: absolute;
+    top: 1150px;
+    font-size: 25;
+    
+    
+} 
+.title3div{
+    top: 1150px;
+    margin-left: 1050px;
+    width:350px;
+    height: 200px;
+    position: absolute;
+    border-radius: 7px;
+    border: 2px solid pink;
+}
+.imgtitle3{
+    width:350px;
+    height: 200px;  
+}
+
+.title4{
+    margin-left: 250px;
+    color: white;
+    height: 20px;
+    width:750px;
+    background-color: none;
+    border-top: 3px solid rgb(157, 157, 241);
+    position: absolute;
+    top: 1400px;
+    font-size: 25;
+    
+    
+} 
+.title4div{
+    top: 1400px;
+    margin-left: 1050px;
+    width:350px;
+    height: 200px;
+    position: absolute;
+    border-radius: 7px;
+    border: 2px solid pink;
+}
+.imgtitle4{
+    width:350px;
+    height: 200px;  
+}
+
+.title5{
+    margin-left: 250px;
+    color: white;
+    height: 20px;
+    width:750px;
+    background-color: none;
+    border-top: 3px solid rgb(157, 157, 241);
+    position: absolute;
+    top: 1650px;
+    font-size: 25;
+    
+    
+} 
+.title5div{
+    top: 1650px;
+    margin-left: 1050px;
+    width:350px;
+    height: 200px;
+    position: absolute;
+    border-radius: 7px;
+    border: 2px solid pink;
+}
+.imgtitle5{
+    width:350px;
+    height: 200px;  
+}
+
+
+   
+    
+            

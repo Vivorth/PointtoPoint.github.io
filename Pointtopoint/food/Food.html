@@ -1,0 +1,659 @@
+<html>
+
+
+    <head>
+        <title>
+            Travel
+        </title>
+        <style>
+.maindiv{
+position: absolute;
+margin-top: 150px;
+margin-left: 17px;
+z-index: 1;
+}
+.a{
+    border: 1px solid;
+   padding: 13px;
+   text-align: center;
+   border-radius: 8px;   background: rgb(49, 143, 231);
+   position: fixed;
+   margin-top:0 px;
+   width: 125px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   color: white;
+
+}
+.b{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     
+   border-radius: 8px;
+   position: fixed;
+    background: rgb(49, 143, 231);
+    margin-top: 45px;
+    width: 125px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: white;
+
+}
+.c{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     
+   border-radius: 8px;
+   background: rgb(49, 143, 231);
+   position: fixed;
+   margin-top: 90px;
+    width: 125px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: white;
+
+}
+.d{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     
+   border-radius: 8px;
+   background: rgb(49, 143, 231);
+   position:fixed;
+   margin-top: 135px;
+   width: 125px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+   color: white;
+
+}
+.e{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     
+   border-radius: 8px;
+   background: rgb(49, 143, 231);
+   position: fixed;
+   margin-top: 180px;
+    width: 125px;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: white;
+
+}
+.a:hover{
+    background: rgb(30, 103, 172) ;
+}
+.b:hover{
+    background: rgb(30, 103, 172);
+}
+.c:hover{
+    background: rgb(30, 103, 172);
+}
+.d:hover{
+    background: rgb(30, 103, 172);
+}
+.e:hover{
+    background:rgb(30, 103, 172);
+}
+.sport{
+display: none;
+position: absolute;
+z-index: 1;
+height: 30px;
+width: 100px;
+}
+.b:hover .sport{
+display: block;
+
+margin-left: 140px;
+margin-top: -30px;
+}
+.sport a{
+background: rgb(30, 103, 172);
+display: block;
+text-decoration: none;
+width:155px;
+padding:13px;
+border: 1px solid;
+color: white;
+}
+a{ 
+border-radius: 8px;
+}
+.esports:hover{
+background:rgb(24, 63, 99)
+}
+.general:hover{
+background: rgb(24, 63, 99)
+}
+.technology a{
+background: rgb(30, 103, 172);
+display: block;
+text-decoration: none;
+width:155px;
+padding:13px;
+border: 1px solid;
+color: white;
+}
+.technology{
+display: none;
+position: absolute;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+.c:hover .technology{
+display: block;
+margin-left: 140px;
+margin-top: -30px;
+}
+.artificial:hover{
+background:rgb(24, 63, 99)
+}
+.medical:hover{
+background:rgb(24, 63, 99)
+}
+.space:hover{
+background:rgb(24, 63, 99)
+}
+.travel{
+display: none;
+position: absolute;
+}
+.travel a{
+background: rgb(30, 103, 172);
+display: block;
+text-decoration: none;
+width:155px;
+padding:13px;
+border: 1px solid;
+color: white;
+}
+.d:hover .travel{
+display: block;
+margin-left: 140px;
+margin-top: -30px;
+}
+.tip:hover{
+background:rgb(24, 63, 99)
+}
+.destination:hover{
+background:rgb(24, 63, 99)
+}
+.logo{
+    align-content: center;
+    animation-name: logo;
+    animation-duration: 1s;
+    animation-iteration-count: 5;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+@keyframes logo{
+    from{transform: scale(1,1.1)}
+    to{transform: scale(1.01,1)}
+    50%{ transform: rotate(1deg);}
+}
+.gs{
+    float: right;
+    width: 500px;
+    background: rgb(247, 244, 244);
+}
+body{
+background: rgb(247, 244, 244);
+margin: auto;
+width: 100%
+}
+.leftbackground{
+    width: 193px;
+    height: 1800px;
+    background: black;
+    float: left;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-top: 100px;
+
+}
+.content{
+    margin-top: 100px;
+    position: absolute;
+}
+.firsttravel{
+    width: 830px;
+    height: 150px;
+    background: rgb(248, 235, 175);
+    margin-left: 300px;
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.firsttravelpic{
+    width: 250px;
+    height: 150px;
+    background: white;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1130px;
+    animation-name: firsttravelpics;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+@keyframes firsttravelpics
+{
+    0%{
+        background-image: url('e2e.jpg');
+      
+    }
+    50%{
+        background-image: url('e3e.jpg');
+
+    }
+    100%{
+        
+        background-image: url('e1e.jpg');
+
+    }
+}
+.secondtravel{
+    width: 830px;
+    height: 150px;
+    background: rgb(248, 235, 175);
+    margin-left: 300px;
+    margin-top: 170px;
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+.secondtravelpic{
+    width: 250px;
+    height: 150px;
+    background: white;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: 170px;
+    animation-name: secondtravelpics;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+@keyframes secondtravelpics
+{
+    0%{
+        background-image: url('d1d.jpg');
+      
+    }
+    20%{
+        background-image: url('d2d.jpg');
+
+    }
+    100%{
+        
+        background-image: url('d3d.jpg');
+
+    }
+}
+.thirdtravel{
+    width: 830px;
+    height: 150px;
+    background: rgb(248, 235, 175);
+    margin-left: 300px;
+    margin-top: 340px;
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+.thirdtravelpic{
+    width: 250px;
+    height: 150px;
+    background: white;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: 340px;
+    animation-name: thirdtravelpics;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+@keyframes thirdtravelpics
+{
+    0%{
+        background-image: url('c1c.jpg');
+      
+    }
+    50%{
+        background-image: url('c2c.jpg');
+
+    }
+    100%{
+        
+        background-image: url('c3c.jpg');
+
+    }
+}
+.fourthtravel{
+    width: 830px;
+    height: 150px;
+    background: rgb(248, 235, 175);
+    margin-left: 300px;
+    margin-top: 510px;
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+.fourthtravelpic{
+    width: 250px;
+    height: 150px;
+    background: white;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: 510px;
+    animation-name: fourthtravelpics;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+@keyframes fourthtravelpics
+{
+    0%{
+        background-image: url('b1b.jpg');
+      
+    }
+    30%{
+        background-image: url('b2b.jpg');
+
+    }
+    60%{
+        
+        background-image: url('b3b.jpg');
+
+    }
+    100%{
+        background-image: url('b4b.jpg');
+    }
+}
+.fifthtravel{
+    width: 830px;
+    height: 150px;
+    background: rgb(248, 235, 175);
+    margin-left: 300px;
+    margin-top: 680px;
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+.fifthtravelpic{
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: 680px;
+    animation-name: fifthtravelpics;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+@keyframes fifthtravelpics
+{
+    0%{
+        background-image: url('a1a.jpg');
+      
+    }
+    30%{
+        background-image: url('a2a.jpg');
+    }
+    60%{
+        background-image: url('a3a.jpg');
+
+    }
+    100%{
+        
+        background-image: url('a4a.jpg');
+
+    }
+}
+.sixthtravel{
+    width: 830px;
+    height: 150px;
+    background: rgb(248, 235, 175);
+    margin-left: 300px;
+    margin-top: 850px;
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+.sixthtravelpic{
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: 850px;
+    animation-name: sixthtravelpics;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+@keyframes sixthtravelpics
+{
+    0%{
+        background-image: url('77777.jpg');
+      
+    }
+    30%{
+        background-image: url('7777.jpg');
+    }
+    60%{
+        background-image: url('777.jpg');
+
+    }
+    100%{
+        
+        background-image: url('77.jpg');
+
+    }
+}
+.main2{
+width: 1320px;
+height: 600px;
+background-color: black;
+position: absolute;
+margin-top: 1300px;
+margin-left:195px;
+}
+.mainsport{
+width: 300px;
+height:600px;
+background: blue;
+position:absolute;
+z-index: 0;
+}
+.maintechnology{
+width: 330px;
+height:600px;
+background: blue;
+display: inline;
+position:absolute;
+margin-left: 310px;
+
+}
+.maintravel{
+width: 330px;
+height:600px;
+background: blue;
+display: inline;
+position:absolute;
+margin-left: 650px;
+}
+.mainfood{
+width: 330px;
+height:600px;
+background: blue;
+z-index: 1;
+margin-left: 990px;
+display: inline;
+position: absolute;
+}
+.mainsport:hover{
+transform: scale(1.01);
+z-index: 2;
+}
+.maintechnology:hover{
+transform: scale(1.01);
+z-index: 2;
+}
+.maintravel:hover{
+transform: scale(1.01);
+z-index: 2;
+}
+.mainfood:hover{
+transform: scale(1.01);
+z-index: 2;
+}
+.fb{
+width: 100px;
+height: 100px;
+position: absolute;
+margin-left: 670px;
+z-index: 1;
+}
+.fb:hover{
+background: rgb(255, 174, 174);
+}
+.ig{
+width: 100px;
+height: 100px;
+position: absolute;
+margin-left: 568px;
+z-index: 1;
+}
+.ig:hover{
+background: rgb(255, 165, 251);
+}
+        </style>
+    </head>
+<body>
+    <div class="gs">
+        <script async src="https://cse.google.com/cse.js?cx=012888334898976176232:eyaxi2kw9s1"></script>
+        <div class="gcse-search" style="width: 500px; position: absolute;"></div></div>
+    
+    <div  class="logo"><img src="file:///C:/Users/USER/Pictures/logo12.jpg" width="160"></div>
+        <div>
+            <img style="width: 100%; height: 500px; " src="food.jpg">
+        </div>
+    <div class="maindiv">
+   <div class="a" >
+        Homepage
+        </div>
+        <div class="b" >Sports
+            <div class="sport">
+                <a href="#" class="esports">Esports</a>
+                <a href="#" class="general">General Sports</a>
+            </div>
+        </div>
+        <div class="c" >Tecchnology
+            <div class="technology">
+                <a href="#" class="artificial">Artificial Intelligence</a>
+                <a href="#" class="space">Spacecraft</a>
+                <a href="#" class="medical">Medical Technology</a>
+            </div>
+        </div>
+        <div class="d">Travel
+            <div class="travel">
+                <a href="#" class="tip">Travel Tips</a>
+                <a href="#" class="destination">Travel Destination</a>
+            </div>
+        </div>
+    <div class="e">Food</div>
+    </div>
+    <div class="leftbackground"></div>
+    <div class="content"><div class="firsttravel">
+        <h1>
+           Street food in the world
+        </h1>
+        <h3>Food can sometimes be the main event for travelers, and some of the most memorable experiences are from that hole-in-the-wall, authentic eatery that still makes your mouth water...</h3>
+        
+    </div>
+    <div class="firsttravelpic">
+
+    </div>
+    <div class="secondtravel">
+        <h1>
+            Vegetable
+        </h1>
+        <h3>Steaming is a healthy, easy way to cook fresh vegetables. The technique requires no added fat, and vitamins remain in the vegetables instead of leaching into the water, as can happen with boiling</h3>
+        
+    </div>
+    <div class="secondtravelpic">
+
+    </div>
+    <div class="thirdtravel">
+        <h1>
+            The best food at Thailand
+        </h1>
+        <h5> If you really want to experience Thailand, you have to do so with all five senses. The most enjoyable of these to indulge is the sense of taste, which means eating what the locals like. With such a large expatriate population and dozens of expat-run restaurants, you could arguably do this by dining on fish and chips, though you would missing out on some excellent Thai food.</h5>
+        
+    </div>
+    <div class="thirdtravelpic">
+
+    </div>
+    <div class="fourthtravel">
+        <h1>
+            Food you should eat when you go to Siemreap 
+        </h1>
+        <h3>Cambodia is not only famous for the Buddist temple and Angkok Wats, but also well-known for its appetizing and original cuisine. Let travel with us and point out many food must eat in a beautiful in Northwestern of Cambodia-Siem Reap.</h3>
+        
+    </div>
+    <div class="fourthtravelpic">
+
+    </div>
+    <div class="fifthtravel">
+        <h1>
+            Fast Food
+         </h1>
+         <h3>Fast food is a type of mass-produced food designed for commercial resale and with a strong priority placed on "speed of service" versus other relevant factors involved in culinary science. </h3>
+        
+    </div>
+    <div class="fifthtravelpic">
+
+    </div>
+    <div class="sixthtravel">
+        <h1>
+            Food you should eat when you go to Cambodia
+        </h1>
+        <h3>Cambodian or Khmer food is typically made with fresh ingredients and is a medley of flavors. As rice is considered a staple in Asian cuisines, it is served with most meals in Cambodia. Unlike Thai cuisine that is distinctly spicy, the food in Cambodia is rather mild and has a lot of pickled and tangy flavors.</h3>
+        
+    </div>
+    <div class="sixthtravelpic">
+
+    </div>
+    </div>
+    <div class="main2">
+        <div class="mainsport"><img src="file:///C:/Users/USER/Downloads/Untitled(1).png" height="600" width="340">
+    
+        </div>
+        <div class="maintechnology"><img src="file:///C:/Users/USER/Downloads/Untitled(3).jpg" height="600" width="340">
+    
+        </div>
+        <div class="maintravel"><img src="file:///C:/Users/USER/Downloads/Untitled(5).jpg" height="600" width="340">
+    
+        </div>
+        <div class="mainfood"><img src="C:/Users/USER/Downloads/Untitled(2).png">
+
+        </div>
+        <div style="margin-top: 700px; margin-left: -200px; margin-bottom: 30px; height:100px;color:white; background: rgb(255, 0, 0); display: block;"><div style="font-size:30px; position: absolute; margin-left: 400px; margin-top: 28px;">Find us here</div>
+    <div class="ig"><a href="#"><img src="C:/Users/USER/Downloads/computer-icons-instagram-logo-sticker-png-favpng-LZmXr3KPyVbr8LkxNML458QV3-removebg-preview.png" width="70" style=" position: absolute; margin-left: 15px;margin-top:15px;" ></a></div>
+    <div class="fb"><a href="https://www.facebook.com/san.vivorth" target="_blank"><img src="file:///C:/Users/USER/Downloads/facebook-2.svg" width="20" style=" position: absolute; margin-left: 40px; margin-top:30px; z-index:2;"></a></div>
+</div>
+</body>
+</html>

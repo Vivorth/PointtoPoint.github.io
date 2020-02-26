@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Point2Point
+        </title>
+        <style> 
+.maindiv{
+position: absolute;
+margin-top: 150px;
+margin-left: 17px;
+z-index: 4;
+}
+.a{
+    border: 1px solid;
+   padding: 13px;
+   text-align: center;
+   border-radius: 8px;   background: rgb(49, 143, 231);
+   position: fixed;
+   margin-top:0 px;
+   width: 125px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   color: white;
+
+}
+.b{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     
+   border-radius: 8px;
+   position: fixed;
+    background: rgb(49, 143, 231);
+    margin-top: 45px;
+    width: 125px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: white;
+
+}
+.c{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     
+   border-radius: 8px;
+   background: rgb(49, 143, 231);
+   position: fixed;
+   margin-top: 90px;
+    width: 125px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: white;
+
+}
+.d{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     
+   border-radius: 8px;
+   background: rgb(49, 143, 231);
+   position:fixed;
+   margin-top: 135px;
+   width: 125px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+   color: white;
+
+}
+.e{
+    border: 1px solid;
+    padding: 13px;
+   text-align: center;     
+   border-radius: 8px;
+   background: rgb(49, 143, 231);
+   position: fixed;
+   margin-top: 180px;
+    width: 125px;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: white;
+
+}
+.a:hover{
+    background: rgb(30, 103, 172) ;
+}
+.b:hover{
+    background: rgb(30, 103, 172);
+}
+.c:hover{
+    background: rgb(30, 103, 172);
+}
+.d:hover{
+    background: rgb(30, 103, 172);
+}
+.e:hover{
+    background:rgb(30, 103, 172);
+}
+.sport{
+display: none;
+position: absolute;
+z-index: 1;
+height: 30px;
+width: 100px;
+}
+.b:hover .sport{
+display: block;
+
+margin-left: 140px;
+margin-top: -30px;
+}
+.sport a{
+background: rgb(30, 103, 172);
+display: block;
+text-decoration: none;
+width:155px;
+padding:13px;
+border: 1px solid;
+color: white;
+}
+a{ 
+border-radius: 8px;
+}
+.esports:hover{
+background:rgb(24, 63, 99)
+}
+.general:hover{
+background: rgb(24, 63, 99)
+}
+.technology a{
+background: rgb(30, 103, 172);
+display: block;
+text-decoration: none;
+width:155px;
+padding:13px;
+border: 1px solid;
+color: white;
+}
+.technology{
+display: none;
+position: absolute;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+.c:hover .technology{
+display: block;
+margin-left: 140px;
+margin-top: -30px;
+}
+.artificial:hover{
+background:rgb(24, 63, 99)
+}
+.medical:hover{
+background:rgb(24, 63, 99)
+}
+.space:hover{
+background:rgb(24, 63, 99)
+}
+.travel{
+display: none;
+position: absolute;
+}
+.travel a{
+background: rgb(30, 103, 172);
+display: block;
+text-decoration: none;
+width:155px;
+padding:13px;
+border: 1px solid;
+color: white;
+}
+.d:hover .travel{
+display: block;
+margin-left: 140px;
+margin-top: -30px;
+}
+.tip:hover{
+background:rgb(24, 63, 99)
+}
+.destination:hover{
+background:rgb(24, 63, 99)
+}
+.img{
+      background-image: url('file:///C:/Users/user/Desktop/Imge/Untitled(1).jpg');
+      width: 100%;
+      height: 600px;
+ }
+    .row{
+        width: 193px;
+        height: 1645px;
+        background: black;
+        float: left;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    .div1{
+        width: 830px;
+        height: 150px;
+        background: rgb(248, 235, 175);
+        margin-left: 130px;
+        margin-top: 15px;
+        display: inline-block;
+        position: absolute;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    .div1pic{
+        width: 250px;
+        height: 150px;
+        background: white;
+        display: inline-block;
+        position: absolute;
+        margin-left: 960px;
+        margin-top: 15px;
+        animation-name: div1pics;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        box-shadow: rgba(0,0,0,0.12),rgba(0,0,0,0.24);
+    }
+    @keyframes div1pics{
+        0%{
+            background-image: url('ronaldo1.jpg');
+        }
+        50%{
+            background-image: url('ronaldo2.jpg');
+        }
+        100%{
+            background-image: url('ronaldo.jpg');
+        }
+    }
+    .div2{
+        width: 830px;
+        height: 150px;
+        background: rgb(248, 235, 175);
+        margin-left: 130px;
+        margin-top: 185px;
+        display: inline-block;
+        position: absolute;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    .div2pic{
+        width: 250px;
+        height: 150px;
+        background: white;
+        display: inline-block;
+        position: absolute;
+        margin-left: 960px;
+        margin-top: 185px;
+        animation-name: div2pic;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        box-shadow: rgba(0,0,0,0.12),rgba(0,0,0,0.24);
+    }
+    @keyframes div2pic{
+        0%{
+            background-image: url('messi1.jpg');
+        }
+        50%{
+            background-image: url('messi2.jpg');
+        }
+        100%{
+            background-image: url('messi3.jpg');
+        }
+    }
+    
+    .div3{
+        width: 830px;
+        height: 150px;
+        background: rgb(248, 235, 175);
+        margin-left: 130px;
+        margin-top: 355px;
+        display: inline-block;
+        position: absolute;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.12);
+    }
+    .div3pic{
+        width: 250px;
+        height: 150px;
+        background: white;
+        display: inline-block;
+        position: absolute;
+        margin-left: 960px;
+        margin-top: 355px;
+        animation-name: div3pic;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        box-shadow: rgba(0,0,0,0.12),rgba(0,0,0,0.24);
+    }
+    @keyframes div3pic{
+        0%{
+            background-image: url('liverpool1.jpg');
+        }
+        50%{
+            background-image: url('liverpool3.jpg');
+        }
+        100%{
+            background-image: url('liverpool2.jpg');
+        }
+    }
+    .div4{
+        width: 830px;
+        height: 150px;
+        background: rgb(248, 235, 175);
+        margin-left: 130px;
+        margin-top: 525px;
+        display: inline-block;
+        position: absolute;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.12);
+    }
+    .div4pic{
+        width: 250px;
+        height: 150px;
+        background: white;
+        display: inline-block;
+        position: absolute;
+        margin-left: 960px;
+        margin-top: 525px;
+        animation-name: div4pic;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        box-shadow: rgba(0,0,0,0.12),rgba(0,0,0,0.24);
+    }
+    @keyframes div4pic{
+        0%{
+            background-image: url('cmabodia1.jpg');
+        }
+        50%{
+            background-image: url('Cambodia2.jpg');
+        }
+        100%{
+            background-image: url('fcambodia3.jpg');
+        }
+    }
+    .div5{
+        width: 830px;
+        height: 150px;
+        background: rgb(248, 235, 175);
+        margin-left: 130px;
+        margin-top: 695px;
+        display: inline-block;
+        position: absolute;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.12);
+    }
+    .div5pic{
+        width: 250px;
+        height: 150px;
+        background: white;
+        display: inline-block;
+        position: absolute;
+        margin-left: 960px;
+        margin-top: 695px;
+        animation-name: div5pic;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        box-shadow: rgba(0,0,0,0.12),rgba(0,0,0,0.24);
+    }
+    @keyframes div5pic{
+        0%{
+            background-image: url('E-sport1.jpg');
+        }
+        50%{
+            background-image: url('E-sport2.jpg');
+        }
+        100%{
+            background-image: url('Esport3.jpg');
+        }
+    }
+        
+    .div6{
+        width: 830px;
+        height: 150px;
+        background: rgb(248, 235, 175);
+        margin-left: 130px;
+        margin-top: 865px;
+        display: inline-block;
+        position: absolute;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.12);
+    }
+    .div6:hover{
+        transform: scale(1.01);
+        z-index: 2;
+        background: aquamarine;
+    }
+    .div5:hover{
+        transform: scale(1.01);
+        z-index: 2;
+        background: aquamarine;
+    }.div4:hover{
+        transform: scale(1.01);
+        z-index: 2;
+        background: aquamarine;
+    }.div3:hover{
+        transform: scale(1.01);
+        z-index: 2;
+        background: aquamarine;
+    }.div2:hover{
+        transform: scale(1.01);
+        z-index: 2;
+        background: aquamarine;
+    }
+    .div1:hover{
+        transform: scale(1.01);
+        z-index: 2;
+        background: aquamarine;
+    }
+    .div6pic{
+        width: 250px;
+        height: 150px;
+        background: white;
+        display: inline-block;
+        position: absolute;
+        margin-left: 960px;
+        margin-top: 865px;
+        animation-name: div6pic;
+        animation-duration: 16s;
+        animation-iteration-count: infinite;
+        box-shadow: rgba(0,0,0,0.12),rgba(0,0,0,0.24);
+    }
+    .div1pic:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .div2pic:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .div3pic:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .div4pic:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .div5pic:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    .div6pic:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    @keyframes div6pic{
+        0%{
+            background-image: url('volleyball.jpg');
+        }
+        33.3%{
+            background-image: url('racingcar.jpg');
+        }
+        66.6%{
+            background-image: url('tennis.jpg');
+        }
+        100%{
+            background-image: url('baskeball.jpg');
+        }
+    }
+    .main2{
+        width: 1300px;
+        height: 600px;
+        background-color: black;
+        position: absolute;
+        margin-top: 1045px;
+        margin-left:195px;
+    }
+    .mainsport{
+        width: 300px;
+        height:600px;
+        background: blue;
+        position:absolute;
+        z-index: 0; 
+    }
+    .maintechnology{
+        width: 330px;
+        height:600px;
+        background: blue;
+        display: inline;
+        position:absolute;
+        margin-left: 310px;
+    }
+            .maintravel{
+                width: 330px;
+                height:600px;
+                background: blue;                 
+                display: inline;
+                position:absolute;
+                margin-left: 650px;
+            }
+            .mainfood{
+                width: 330px;
+                height:600px;
+                background: blue;
+                 z-index: 1;
+                 margin-left: 990px;
+                 display: inline;
+                 position: absolute;
+            }
+            .mainsport:hover{
+                transform: scale(1.01);
+                z-index: 2;
+            }
+            .maintechnology:hover{
+                transform: scale(1.01);
+                z-index: 2;
+            }
+            .maintravel:hover{
+                transform: scale(1.01);
+                z-index: 2;
+            }
+            .mainfood:hover{
+                transform: scale(1.01);
+                z-index: 2;
+            }
+            .fb{
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                margin-left: 670px;
+                z-index: 1;
+                }
+            .fb:hover{
+                background: rgb(255, 174, 174);
+            }
+            .ig{
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                margin-left: 568px;
+                z-index: 1;
+            }
+            .ig:hover{
+        
+                background: rgb(255, 165, 251);
+            }
+            .logo{
+                align-content: center;
+                width: 160px;
+                height: 160px;
+                margin-left: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .gs{
+      float: right;
+      width: 500px;
+      background: black;
+      margin-top: 10px;
+  }
+            
+        </style>
+    </head>
+    <body>
+        <div class="gs">
+            <script async src="https://cse.google.com/cse.js?cx=012888334898976176232:eyaxi2kw9s1"></script>
+            <div class="gcse-search" style="width: 500px; position: absolute;"></div></div>
+        <div  class="logo"><img src="file:///C:/Users/USER/Pictures/logo12.jpg" width="160" height="160px"></div>
+        <div class="img"><img src="file:///C:/Users/USER/Downloads/Imge/Untitled(1).jpg" style="height: 600px; width: 100%; z-index: -1;">
+        </div>
+        <div class="maindiv">
+        <div class="a" > Homepage</div>
+        <div class="b" >Sports
+            <div class="sport">
+                <a href="#" class="esports">Esports</a>
+                <a href="#" class="general">General Sports</a>
+            </div>
+        </div>
+        <div class="c" >Tecchnology
+            <div class="technology">
+                <a href="#" class="artificial">Artificial Intelligence</a>
+                <a href="#" class="space">Spacecraft</a>
+                <a href="#" class="medical">Medical Technology</a>
+            </div>
+        </div>
+        <div class="d">Travel
+            <div class="travel">
+                <a href="#" class="tip">Travel Tips</a>
+                <a href="#" class="destination">Travel Destination</a>
+            </div>
+        </div>
+        <div class="e" >Food</div>
+        </div>
+        <div class="row"></div>
+        <div class="div1"><h1>C.Ronaldo</h1><h3>Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays as a forward for Serie A club Juventus and captains the ...</h3></div>
+        <div class="div1pic"></div>
+        <div class="div2"><h1>Lionel.Messi</h1><h3>Lionel Andrés Messi Cuccittini is an Argentine professional footballer who plays as a forward and captains both Spanish club Barcelona and the Argentina ...</h3></div>
+        <div class="div2pic"></div>
+        <div class="div3"><h1>Liverpool</h1><h3>Liverpool Football Club is a professional football club in Liverpool, England, that competes in the Premier League, the top tier of English football. The club has ...</h3></div>
+        <div class="div3pic"></div>
+        <div class="div4"><h1>Cambodia</h1><h3>The Cambodia national football team nicknamed the Angkor Warriors or Kouprey Kampuchea, represents Cambodia in international football and is controlled by ... </h3></div>
+        <div class="div4pic"></div>
+        <div class="div5"><h1>E-sport</h1><h3>sports is a form of sport competition using video games. Esports often takes the form of organized, multiplayer video game competitions, particularly between ...</h3></div>
+        <div class="div5pic"></div>
+        <div class="div6"><h1>Sport for you</h1><h3> About sport everyday in world...</h3></div>
+        <div class="div6pic"></div>
+        <div class="main2">
+            <div class="mainsport"><img src="file:///C:/Users/USER/Downloads/Untitled(1).png" height="600" width="340">
+        
+            </div>
+            <div class="maintechnology"><img src="file:///C:/Users/USER/Downloads/Untitled(3).jpg" height="600" width="340">
+        
+            </div>
+            <div class="maintravel"><img src="file:///C:/Users/USER/Downloads/Untitled(5).jpg" height="600" width="340">
+        
+            </div>
+            <div class="mainfood"><img src="C:/Users/USER/Downloads/Untitled(2).png" height="600">
+        
+            </div>
+            <div style="margin-top: 700px;margin-left: -200px; margin-bottom: 30px; max-width:1500px; height:100px;color:white; background: rgb(255, 0, 0); display: block;"><div style="font-size:30px; position: absolute; margin-left: 400px; margin-top: 28px;">Find us here</div>
+    <div class="ig"><a href="#"><img src="C:/Users/USER/Downloads/computer-icons-instagram-logo-sticker-png-favpng-LZmXr3KPyVbr8LkxNML458QV3-removebg-preview.png" width="70" style=" position: absolute; margin-left: 15px;margin-top:15px;" ></a></div>
+    <div class="fb"><a href="#" target="_blank"><img src="file:///C:/Users/USER/Downloads/facebook-2.svg" width="20" style=" position: absolute; margin-left: 40px; margin-top:30px; z-index:2;"></a></div>
+    </div>
+    </body>
+</html>

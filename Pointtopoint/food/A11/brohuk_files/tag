@@ -1,0 +1,18 @@
+(function(w, d, s) {
+  try {
+    d = w.top.document || d; w = w.top.document ? w.top : w;
+  } catch (e) {}
+  var ttag = function() {
+    w.teads.page(71103).placement(76820, {slider: {allow_corner_position: false, allow_top_position: false}, "css":"max-width: 550px !important; margin: 15px auto 15px;","callbacks":{"AdImpression":function () {var tti = document.createElement('img'); tti.setAttribute("width","1px"); tti.setAttribute("height","1px"); tti.style.display="none"; 
+tti.src = Impression;
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tti, s);},"AdClickThru":function () {var tti = document.createElement('img'); tti.setAttribute("width","1px"); tti.setAttribute("height","1px"); tti.style.display="none"; 
+tti.src = ClickTracking;
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tti, s);}},"format":"inread","slot":{"btf":false,"selector":".Article__body .Paragraph__component > span","minimum":6}}).serve();
+  };
+  if (w.teads && w.teads.page) { ttag(); }
+  else if (!w.teadsscript) {
+    var protocol = 'https:';
+    s.src = protocol + '//a.teads.tv/media/format/v3/teads-format.min.js';
+    s.async = true; s.onload = ttag; w.teadsscript = d.getElementsByTagName('head')[0].appendChild(s);
+  }
+})(window, document, document.createElement('script'));
