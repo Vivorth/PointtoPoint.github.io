@@ -37,16 +37,276 @@
 
 .maincontent > .div2{
 
-    width:405px;
-
-    margin-left: 0px;
+    width:100%;
+    height: 220px;
+    margin-left: -5px;
+    border-radius: 0px 0px 0px 0px;
 
 }
-.maincontent .div8{
-    margin-left: 0px;
+
+.div2 > .topsporttitle{
+    font-size: 15px;
 }
+.div2 > .topsport{
+    width: 100%;
+    height: 150px;
+    border-radius: 0px;
+    animation-name: topsport;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    }
+@keyframes topsport{
+    0%{
+    background-image: url('file:///C:/Users/USER/Downloads/Untitled(7).png');
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+    50%{
+    background-image: url('file:///C:/Users/USER/Downloads/Untitled(8).png');
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    }
+    100%{
+    background-image: url('file:///C:/Users/USER/Downloads/Untitled(7).png');
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    }
+}
+.maincontent > .div8{
+
+    width:100%;
+    height: 220px;
+    margin-left: -5px;
+    border-radius: 0px 0px 0px 0px;
+
 }
 
+.div8 > .topsporttitle{
+    font-size: 15px;
+}
+.div8 > .toptravel1{
+    width: auto;
+    height: 150px;
+    border-radius: 0px;
+    animation-name: toptravels1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    }
+@keyframes toptravels1{
+0%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(24).jpg');
+background-size: auto;
+background-repeat: no-repeat;
+}
+40%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(25).jpg');
+background-size: auto;
+background-repeat: no-repeat;
+}
+80%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(26).jpg');
+background-size: auto;
+background-repeat: no-repeat;
+}
+100%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(24).jpg');
+background-size: auto;
+background-repeat: no-repeat;
+}
+}
+.div3 > .toptravel{
+    width: auto;
+    height: 150px;
+    border-radius: 0px;
+    animation-name: toptravels;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    
+}
+.maincontent > .div3{
+    margin-top: 0px;
+    width:100%;
+    height: 220px;
+    margin-left: -5px;
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+.div3 > .topsporttitle{
+    font-size: 15px;
+}
+@keyframes toptravels{
+0%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(3).png');
+background-size: auto;
+background-repeat: no-repeat;
+}
+50%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(4).png');
+background-size: auto;
+background-repeat: no-repeat;
+}
+80%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(3).png');
+background-size: auto;
+background-repeat: no-repeat;
+}
+100%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(3).png');
+background-size: auto;
+background-repeat: no-repeat;
+}
+}
+.div4 > .toptechnology{
+    animation-name: toptechnology;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: auto;
+    height: 150px;
+    border-radius: 0px;
+}
+.maincontent > .div4{
+    margin-top: 0px;
+    width:100%;
+    height: 220px;
+    margin-left: -5px;
+    border-radius: 0px 0px 0px 0px;
+    margin-top: -210px;
+
+}
+
+.div4 > .topsporttitle{
+    font-size: 15px;
+}
+@keyframes toptechnology{
+0%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(10).png');
+
+}
+50%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(9).png');
+}
+
+100%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(10).png');
+}
+}
+.div5 > .toptechnology1{
+    animation-name: toptechnology1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: auto;
+    height: 150px;
+    border-radius: 0px;
+}
+.maincontent > .div5{
+    margin-top: 0px;
+    width:100%;
+    height: 220px;
+    margin-left: -5px;
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 440px;
+}
+
+.div5 > .topsporttitle{
+    font-size: 15px;
+}
+@keyframes toptechnology1{
+0%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(28).jpg');
+}
+50%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(29).jpg');
+}
+80%{
+    background-image: url('file:///C:/Users/USER/Downloads/Untitled(27).jpg');
+
+}
+
+100%{
+background-image: url('file:///C:/Users/USER/Downloads/Untitled(28).jpg');
+}
+}
+.div6 > .topfood{
+    animation-name: topfood;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    width: auto;
+    height: 150px;
+    border-radius: 0px;    }
+    .maincontent > .div6{
+        margin-top: 0px;
+        width:100%;
+        height: 220px;
+        margin-left: -5px;
+        border-radius: 0px 0px 0px 0px;
+        margin-top: 660px;
+    }
+    
+    .div6 > .topsporttitle{
+        font-size: 15px;
+    }
+    @keyframes topfood{
+    0%{
+    background-image: url('file:///C:/Users/USER/Downloads/Untitled(5).png');
+    }
+    50%{
+    background-image: url('file:///C:/Users/USER/Downloads/Untitled(6).png')
+    }
+    80%{
+    background-image: url('file:///C:/Users/USER/Downloads/Untitled(5).png');
+    }
+    100%{
+    background-image: url('file:///C:/Users/USER/Downloads/Untitled(5).png');
+    }
+    }
+    .div7 > .topfood1{
+        animation-name: topfood1;
+        animation-duration: 13s;
+        animation-iteration-count: infinite;
+        width: auto;
+        height: 150px;
+        border-radius: 0px; 
+        }
+        .maincontent > .div7{
+            margin-top: 0px;
+            width:100%;
+            height: 220px;
+            margin-left: -5px;
+            border-radius: 0px 0px 0px 0px;
+            margin-top: 880px;
+        }
+        
+        .div7 > .topsporttitle{
+            font-size: 15px;
+        }
+        @keyframes topfood1{
+        0%{
+        background-image: url('file:///C:/Users/USER/Downloads/Untitled(22).jpg');
+        }
+        50%{
+        background-image: url('file:///C:/Users/USER/Downloads/Untitled(23).jpg')
+        }
+        80%{
+        background-image: url('file:///C:/Users/USER/Downloads/Untitled(22).jpg');
+        }
+        100%{
+        background-image: url('file:///C:/Users/USER/Downloads/Untitled(23).jpg');
+        }
+        }
+        .main2{
+            left: -200px;
+            top: 2000px;
+            width: 100%;
+            height: 200px;
+        }
+        .mainsport > .mainsport1{
+            width:93px;
+            height: 150px;
+        }
+}
 .logo{
     align-content: center;
     animation-name: logo;
@@ -55,16 +315,20 @@
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+    width: 160px;
 }
 @keyframes logo{
     from{transform: scale(1,1.1)}
     to{transform: scale(1.01,1)}
     50%{ transform: rotate(1deg);}
 }
+.maincontent{
+    height: 640px; margin-left:5px; margin-top: 450px;
+
+}
 .div{
     border: 1px thin;
-    width: 155px;
+    width: 10px;
     color: white;
     margin-top: -560px;
     margin-left:20px;
@@ -230,9 +494,7 @@ background: rgb(228, 228, 228);
 margin: auto;
 width: 100%
 }
-.div2{
-display: inline;
-}
+
 p{
 font-family: 'Sigmar One', cursive;
 display: inline;
@@ -268,6 +530,8 @@ border-radius: 20px;
 margin-top: -430px;
 color: rgb(55, 57, 170);
 font-family: 'Libre Baskerville', serif;
+flex: 1;
+order: 2;
 
 }
 .div2:hover {
@@ -364,12 +628,7 @@ border-radius: 20px;
 color: rgb(55, 57, 170);
 font-family: 'Libre Baskerville', serif;
 }
-.maindiv{
-height: 500px;
-max-height:100%;
-max-width: 100%;
 
-}
 .img{
 max-width: 100%;
 max-height:100%;
@@ -397,50 +656,21 @@ z-index: 1;
 background: rgb(255, 165, 251);
 }
 .main2{
-width: 1320px;
-height: 600px;
+
 background-color: black;
 position: absolute;
 margin-top: -30px;
 margin-left:195px;
+display: flex;
 }
-.mainsport{
-width: 300px;
-height:600px;
-background: blue;
-position:absolute;
-z-index: 0;
 
-}
-.maintechnology{
-width: 330px;
-height: 600px;
-background: blue;
-display: inline;
-position:absolute;
-margin-left: 310px;
-}
-.maintravel{
-width: 330px;
-height:600px;
-background: blue;
-display: inline;
-position:absolute;
-margin-left: 650px;
-}
-.mainfood{
-width: 330px;
-height:600px;
-background: blue;
-z-index: 1;
-margin-left: 990px;
-display: inline;
-position: absolute;
-}
 .toptravel{
     animation-name: toptravels;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+    width:475px; 
+    height:200px;
+     border-radius: 16px 16px 0px 0px;
 }
 @keyframes toptravels{
 0%{
@@ -458,7 +688,7 @@ background-image: url('file:///C:/Users/USER/Downloads/Untitled(3).png');
 }
 .gs{
     float: right;
-    width: 500px;
+    width: 100%;
     background: black;
     margin-top: 10px;
 }
@@ -467,6 +697,7 @@ background-image: url('file:///C:/Users/USER/Downloads/Untitled(3).png');
 animation-name: topfood;
 animation-duration: 13s;
 animation-iteration-count: infinite;
+width:400px; height:305px; border-radius: 16px 16px 0px 0px;
 }
 @keyframes topfood{
 0%{
@@ -481,6 +712,10 @@ background-image: url('file:///C:/Users/USER/Downloads/Untitled(5).png');
 100%{
 background-image: url('file:///C:/Users/USER/Downloads/Untitled(5).png');
 }
+}
+.mainsport1{
+    height: 600px;
+    width: 320px;
 }
 .mainsport:hover{
 transform: scale(1.01);
@@ -515,20 +750,29 @@ z-index: 2;
     animation-iteration-count: infinite;
     }
     @keyframes topsport{
-    0%{
-    background-image: url('file:///C:/Users/USER/Downloads/Untitled(7).png');
+        0%{
+        background-image: url('file:///C:/Users/USER/Downloads/Untitled(7).png');
+        background-size: auto;
     }
-    50%{
-    background-image: url('file:///C:/Users/USER/Downloads/Untitled(8).png')
-    }
-    100%{
-    background-image: url('file:///C:/Users/USER/Downloads/Untitled(7).png');
+        50%{
+        background-image: url('file:///C:/Users/USER/Downloads/Untitled(8).png');
+        background-size: auto;
+
+    
+        }
+        100%{
+        background-image: url('file:///C:/Users/USER/Downloads/Untitled(7).png');
+        background-size: auto;
+
+    
+        }
     }
 }
 .toptechnology{
     animation-name: toptechnology;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+    width:475px; height: 200px; border-radius: 16px 16px 0px 0px;
 }
 @keyframes toptechnology{
 0%{
@@ -546,6 +790,7 @@ background-image: url('file:///C:/Users/USER/Downloads/Untitled(10).png');
     animation-name: toptechnology1;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+    width: 475px; height: 200px; border-radius: 16px 16px 0px 0px;
 }
 @keyframes toptechnology1{
 0%{
@@ -564,28 +809,41 @@ background-image: url('file:///C:/Users/USER/Downloads/Untitled(28).jpg');
 }
 }
 .toptravel1{
-    animation-name: toptravels1;
-    animation-duration: 15s;
+    width: 405px;
+    height: 200px;
+    border-radius: 16px 16px 0px 0px;
+    animation-name: toptravel1;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
+    
 }
 @keyframes toptravels1{
 0%{
 background-image: url('file:///C:/Users/USER/Downloads/Untitled(24).jpg');
+background-size: auto;
+
 }
 40%{
 background-image: url('file:///C:/Users/USER/Downloads/Untitled(25).jpg');
+background-size: auto;
+
 }
 80%{
 background-image: url('file:///C:/Users/USER/Downloads/Untitled(26).jpg');
+background-size: auto;
+
 }
 100%{
 background-image: url('file:///C:/Users/USER/Downloads/Untitled(24).jpg');
+background-size: auto;
+
 }
 }
 .topfood1{
     animation-name: topfood1;
     animation-duration: 13s;
     animation-iteration-count: infinite;
+    width:400px; height:305px; border-radius: 16px 16px 0px 0px;
     }
     @keyframes topfood1{
     0%{
