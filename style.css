@@ -1,10 +1,18 @@
 @media only screen and (max-width: 600px)
 {
-
+    .content > #myBtn{
+        width: 50px;
+        height: 30px;
+        margin-left: 280px;
+        z-index: 3;
+        font-size: 9px;
+        margin-top: -500px;
+    }
     .maindiv .b{
         margin-top: 350px;
         width: 90px;
         padding: 0px;
+        z-index: 3;
      
     }
     .maindiv .c{
@@ -296,16 +304,26 @@ background-image: url('file:///C:/Users/USER/Downloads/Untitled(28).jpg');
         background-image: url('file:///C:/Users/USER/Downloads/Untitled(23).jpg');
         }
         }
+        .mainsport{
+            height: 173px;
+        }
         .main2{
-            left: -200px;
-            top: 2000px;
-            width: 100%;
-            height: 200px;
+            left: -194px;
+            top: 2050px;
         }
-        .mainsport > .mainsport1{
-            width:93px;
-            height: 150px;
+        div > .findus{
+            font-size: 15px;
+            margin-left: 30px;
         }
+        div > .ig{
+            margin-left: 100px;
+        }
+        div > .fb{
+            margin-left: 170px;
+        }
+}
+.findus{
+    font-size:30px;  margin-left: 400px; top: 30px;
 }
 .logo{
     align-content: center;
@@ -641,6 +659,8 @@ height: 100px;
 position: absolute;
 margin-left: 670px;
 z-index: 1;
+margin-top: -35px;
+
 }
 .fb:hover{
 background: rgb(255, 174, 174);
@@ -651,10 +671,12 @@ height: 100px;
 position: absolute;
 margin-left: 568px;
 z-index: 1;
+margin-top: -35px;
 }
 .ig:hover{
 background: rgb(255, 165, 251);
 }
+
 .main2{
 
 background-color: black;
@@ -662,7 +684,10 @@ position: absolute;
 margin-top: -30px;
 margin-left:195px;
 display: flex;
+
 }
+
+
 
 .toptravel{
     animation-name: toptravels;
@@ -712,10 +737,6 @@ background-image: url('file:///C:/Users/USER/Downloads/Untitled(5).png');
 100%{
 background-image: url('file:///C:/Users/USER/Downloads/Untitled(5).png');
 }
-}
-.mainsport1{
-    height: 600px;
-    width: 320px;
 }
 .mainsport:hover{
 transform: scale(1.01);
